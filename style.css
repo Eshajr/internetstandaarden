@@ -1,0 +1,116 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'hind vadodara' , sans-serif 
+    
+}
+.header {
+    min-height: 10vh;
+    width: 100%;
+      
+}
+
+nav {
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 175px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Concert One', cursive;
+}
+/* hover */
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(157, 195, 157);
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+
+
+/* about page */
+ h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 6em;
+    margin-bottom: 1em;
+    font-family: 'Concert One', cursive;
+ }
+ 
+.about-pic{
+    float: left;
+    width: 350px;
+    margin-right: 2em;
+}
+.lp {
+    float: right;
+    width: 350px;
+    margin-left: 2em;
+    margin-bottom: 6em;
+}
+.howl, .grave {
+    float: right;
+    width: 250px;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    border-radius: 10%;
+}
+
+.arrietty {
+    float: left;
+    width: 250px;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    border-radius: 10%;
+}
+.banner{
+    margin-left: 25%;
+}
+  p, h2{ 
+   font-size: 21px; 
+   margin-left: 10em;
+   margin-right: 10em;
+   margin-top: 2em;
+   margin-bottom: 2em;
+   
+}
+iframe{
+width: 400px;
+float: left;
+margin-left: 13em;
+margin-top: 3em;
+}
+footer {
+    text-align: right;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Concert One', cursive;
+}
+footer img{
+    width: 150px;
+
+}
